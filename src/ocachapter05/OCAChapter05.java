@@ -17,7 +17,7 @@ public class OCAChapter05 {
     public static void main(String[] args) {
         // TODO code application logic here
         //Animal a = new Animal(); //not valid if Animal is abstract
-        Lion cowardly = new Lion(5);
+        Lion cowardly = new Lion(7);
         cowardly.roar();
         cowardly.roar(" loudly");
         System.out.println("The Lion can run up to " + cowardly.getMaximumSpeed()
